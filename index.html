@@ -39,7 +39,7 @@
                 <!-- right microphone -->
                 <i class="fas fa-search"></i>
                 <input type="text" id="searchbarinput">
-                <i class="fas fa-microphone"></i>
+                <i class="fas fa-microphone" id = "mic"></i>
             </div>
         <!-- </div> -->
         
@@ -104,4 +104,10 @@
     </section>
     </div>
 
-</body></html>
+</body>
+<script>
+    document.getElementById("mic").onclick = function changeContent() {   
+        document.location.href = "nomic.html";
+}
+</script>
+</html>
